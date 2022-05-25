@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -user guillaume and -iname "hello" | chown vincent
+find . -user guillaume and -iname "hello" | chown vincent
